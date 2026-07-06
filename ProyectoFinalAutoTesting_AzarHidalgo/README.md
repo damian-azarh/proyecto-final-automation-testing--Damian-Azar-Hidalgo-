@@ -1,13 +1,13 @@
 # 🤖 Proyecto de Automatizacion QA - Damian Azar Hidalgo
 Proyecto final de automatización QA Talento Lab
 
-## Descripcion
+## Descripcion del trabajo
 
 Proyecto final del curso de Automatizacion QA realizado con Python, Selenium WebDriver y Pytest.
 
 El objetivo de este proyecto es conseguir automatizar distintas pruebas funcionales de una aplicacion web.
 
-## Tecnologias usadas
+## Elementos usados
 
 * Lenguaje: Python
 * Automatización: Selenium WebDriver
@@ -16,26 +16,26 @@ El objetivo de este proyecto es conseguir automatizar distintas pruebas funciona
 * Reportes: Pytest-html (con screenshots ante fallos)
 * Control de versiones: Git y GitHub
 
-## Instalacion
+## ¿Cómo proceder con la instalación?
 
-`git clone https://github.com/MatiasDeArriba/proyecto-final-automation-testing-matias-de-arriba.git`
+`git clone https://github.com/damian-azarh/proyecto-final-automation-testing--Damian-Azar-Hidalgo-`
 
-## Instalacion dependencias
+## ¿Cómo instalar dependencias?
 
 `pip install -r requirements.txt`
 
-## Ejecucion de pruebas
+## ¿Cómo ejecutar las pruebas?
 
-Para ejecutar la suite completa de pruebas y generar el reporte, utilizar el siguiente comando:
+Para ejecutar las pruebas con el reporte correspondiente, se utiliza el siguiente comando:
 
 `pytest --html=reports/report.html`
 
-## Funcionamiento de las pruebas
+## ¿Cómo es el funcionamiento de las pruebas?
 
-**Test Login:** Validación de acceso exitoso y manejo de errores (escenarios negativos) mediante parametrización con archivos CSV.
+**Test Login:** Se valida el acceso exitoso al sitio y se manejan los errores que puedan surgir con archivos CSV.
 
-**Test Inventory:** Verificación de la carga correcta de productos y navegación en la página de inventario.
+**Test Inventory:** Se verifica la carga correcta de los productos y se navega la pagina del inventario. 
 
-**Test Cart:** Pruebas funcionales del carrito de compras que incluyen la adición y eliminación de productos, verificación de persistencia de ítems y parametrización mediante archivos JSON.
+**Test Cart:** Se hacen pruebas funcionales del carrito, incluyendo añadir objetos, eliminar objetos, verificar los items en el carrito y parametrizacion con archivos JSON.
 
-**Test API:** Suite de pruebas para endpoints públicos, validando métodos HTTP (GET, POST, DELETE) y la integridad de los datos en las respuestas JSON.
+**Test API:** Se validan metodos HTTP en endpoints publicos ademas de la integridad de los datos que devuelven las respuestas JSON.
